@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.one{
+    background: url('./main.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 686px;
+}
+
+.one > h1{
+    width: 350px;
+    height: 84px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    background-color: #1D3557;
+    text-align: center;
+    line-height: 84px;
+    margin-bottom: 21px;
+}
+
+.one > p{
+    margin-top: 21px;
+    width: 412px;
+    height: 104px;
+    background-color: #45789D;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18.72px;
+    color: white;
+    text-align: center;
+    line-height: 44px;    
+}
+
+.two{
+    height: 756px;
+    background-color: #F1FAEE;
+}
+
+.two > h1{
+    height: 156px;
+    color: #1D3557;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    line-height: 156px;
+
+}
+
+.activities{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.activity{
+    width: 225px;
+    height: 452px;
+    text-align: center;
+}
+
+.activity > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.activity > h2{
+    margin-top: 40px;
+    font-weight: 700;
+    line-height: 25px;
+    font-size: 20px;
+    color: #1D3557;
+}
+
+.activity > p{
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1D3557;
+}
+
+.three{
+    height: 790px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.your-guide{
+    display: flex;
+    width: 800px;
+    height: 590px;
+    background-color: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+}
+
+.image{
+    background: url('./Anas.jpeg') no-repeat center;
+    background-size: cover;
+    width: 360px;
+    height: 500px;
+    margin: 23px 13px 23px 13px;
+    border-radius: 10px;
+}
+
+.details >  h1{
+    color: #1D3557;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.description{
+    margin-top: 60px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #1D3557;
+    margin-top: 60px;
+}
